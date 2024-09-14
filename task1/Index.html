@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abhimanyu Bhat | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <h1>Hello, I'm <span class="highlight">Abhimanyu Bhat</span></h1>
+        <p>
+          A web developer with a passion for crafting modern, responsive
+          websites.
+        </p>
+        <a href="#portfolio" class="btn">View My Work</a>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h2>My Projects</h2>
+        <div class="grid">
+          <div class="project-card" onclick="openModal('modal1')">
+            <h3>Project 1</h3>
+            <p>
+              Project Overview: Dhar Ghar Seva (E-commerce Website for the
+              Postal Department of India) 
+            </p>
+          </div>
+          <div class="project-card" onclick="openModal('modal2')">
+            <h3>Project 2</h3>
+            <p>
+              Project Overview: Educational Empowerment Platform 
+            </p>
+          </div>
+          <div class="project-card" onclick="openModal('modal3')">
+            <h3>Project 3</h3>
+            <p>
+            Project Overview: Health and Fitness Tracker 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Modals for Project Details -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal1')">&times;</span>
+        <h2>Project 1: [Project Name]</h2>
+        <p>Detailed information about Project 1 goes here.
+            Project Overview: Dhar Ghar Seva (E-commerce Website for the
+              Postal Department of India) "Dhar Ghar Seva" is an innovative
+              e-commerce platform developed specifically for the Indian postal
+              department. This project aimed to modernize and streamline the
+              purchase and delivery of postal products and services. The
+              platform was created for an internal college competition, where
+              our team proudly secured 3rd place. Key Features &
+              Functionalities: User Registration & Authentication: Users can
+              easily create an account and log in securely using standard
+              authentication methods. The platform uses JWT (JSON Web Tokens)
+              for managing user sessions and ensuring secure access. Product
+              Catalog: The platform features a comprehensive catalog of postal
+              products, including stamps, postal stationery, and various postal
+              services. Users can browse through categories, view detailed
+              descriptions, and check product availability. Online Ordering:
+              Users can place orders for postal products directly through the
+              website. The ordering process is streamlined with an intuitive
+              interface that includes a shopping cart, order summary, and
+              payment gateway integration for secure transactions. Order
+              Tracking: After placing an order, users can track the status of
+              their shipment in real-time. This feature provides updates on the
+              processing, dispatch, and delivery stages of their orders,
+              enhancing transparency and user satisfaction. Admin Panel: An
+              administrative dashboard allows postal department staff to manage
+              product listings, process orders, and update inventory. The admin
+              panel also includes features for generating reports and managing
+              user queries. Customer Support: The platform includes customer
+              support features such as a helpdesk, live chat, and email support.
+              Users can raise queries, report issues, or seek assistance with
+              their orders through these channels. Payment Integration:
+              Integrated with secure payment gateways, the platform supports
+              various payment methods including credit/debit cards, net banking,
+              and digital wallets. This ensures a smooth and secure payment
+              experience for users. Responsive Design: The website is designed
+              to be fully responsive, providing a seamless experience across
+              different devices including desktops, tablets, and smartphones.
+              This ensures that users can access and use the platform from
+              anywhere. Technical Architecture: Frontend: ReactJS: The frontend
+              is built using ReactJS, enabling a dynamic and interactive user
+              interface. React's component-based architecture helps manage
+              complex UI elements and enhances performance. CSS and Bootstrap:
+              The website is styled using custom CSS and Bootstrap for
+              responsive design, ensuring that it adapts to various screen sizes
+              and devices. Backend: Spring Boot: The backend is powered by
+              Spring Boot, providing a robust and scalable framework for
+              handling business logic, data processing, and API management.
+              MongoDB: Used for storing unstructured data related to product
+              catalogs, user information, and order details. MongoDB's
+              flexibility supports diverse data types and queries. SQL: Employed
+              for managing structured data related to transactions and
+              inventory. SQL databases are used for their reliability and
+              efficient data handling capabilities. APIs and Integration:
+              RESTful APIs facilitate communication between the frontend and
+              backend, allowing for smooth data exchange and interaction.
+              Payment gateway integration ensures secure financial transactions.
+              Security: The platform incorporates security measures such as data
+              encryption, secure payment processing, and authentication
+              protocols to protect user information and transactions. Challenges
+              & Solutions: Integration with Payment Gateways: Ensuring seamless
+              and secure payment processing was a significant challenge. We
+              addressed this by integrating reliable payment gateways and
+              conducting thorough testing to ensure transaction security.
+              Scalability: To handle a potentially high volume of users and
+              orders, we designed the system with scalability in mind. The use
+              of Spring Boot and MongoDB supports horizontal scaling and
+              efficient data handling. User Experience: Designing an intuitive
+              and responsive user interface was crucial for user satisfaction.
+              We utilized ReactJS and Bootstrap to create a user-friendly and
+              visually appealing platform. Outcome & Impact: Improved
+              Accessibility: The platform enhances accessibility to postal
+              services by allowing users to purchase products and services
+              online, reducing the need for physical visits to post offices.
+              Efficiency: Dhar Ghar Seva streamlines postal operations, making
+              it easier for the postal department to manage orders, track
+              inventory, and handle customer queries. Recognition: The project
+              was well-received in the internal college competition, where it
+              secured 3rd place for its innovation, practicality, and effective
+              use of technology.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal2')">&times;</span>
+        <h2>Project 2: [Project Name]</h2>
+        <p>Detailed information about Project 2 goes here.
+            Project Overview: Educational Empowerment Platform During my
+              internship at IBM, I had the opportunity to work on a significant
+              project focused on enhancing educational opportunities for
+              children. Our team developed a platform designed to facilitate
+              access to quality education, leveraging modern web technologies to
+              create an efficient and user-friendly solution. The project was
+              completed within a remarkably short timeframe of just four days,
+              showcasing our ability to deliver impactful solutions under tight
+              deadlines. Key Features & Functionalities: User Registration &
+              Authentication: The platform includes a secure registration and
+              authentication system that allows students, parents, and educators
+              to create accounts and log in. Authentication is managed through
+              JWT (JSON Web Tokens) to ensure secure access and user data
+              protection. Course Catalog: A comprehensive catalog of educational
+              resources is available, including courses, tutorials, and
+              interactive content. Users can browse through various categories,
+              view course details, and select content relevant to their
+              educational needs. Interactive Learning Modules: The platform
+              features interactive learning modules designed to engage students
+              and facilitate effective learning. These modules include quizzes,
+              exercises, and multimedia content that cater to different learning
+              styles. Progress Tracking: Students can track their learning
+              progress through personalized dashboards that display completed
+              courses, quiz scores, and overall achievements. This feature helps
+              users monitor their educational growth and stay motivated. Teacher
+              & Parent Portals: Separate portals for teachers and parents allow
+              for monitoring and managing student performance. Teachers can
+              create and manage courses, while parents can track their child's
+              progress and provide support. Feedback & Support: Users can
+              provide feedback on courses and request support through integrated
+              channels. This feature ensures continuous improvement of the
+              platform and addresses any issues that users might encounter.
+              Technical Architecture: Frontend: ReactJS: The frontend is built
+              using ReactJS, enabling a responsive and dynamic user interface.
+              React’s component-based architecture allows for modular and
+              maintainable code, enhancing user interaction and experience. CSS
+              and Material-UI: Custom CSS and Material-UI are used to style the
+              platform, providing a modern and aesthetically pleasing interface
+              that is also responsive across various devices. Backend: Node.js &
+              Express.js: The backend is powered by Node.js and Express.js,
+              providing a robust and scalable server environment. This setup
+              allows for efficient handling of API requests and real-time data
+              processing. MongoDB: MongoDB is utilized for storing and managing
+              unstructured data, including user profiles, course content, and
+              progress tracking information. Its flexible schema design supports
+              the dynamic nature of educational content. APIs and Integration:
+              RESTful APIs facilitate communication between the frontend and
+              backend, ensuring seamless data exchange and interaction. These
+              APIs handle user requests, course management, and progress
+              tracking functionalities. Security: The platform implements
+              security best practices, including data encryption, secure
+              authentication, and authorization mechanisms to protect user
+              information and ensure safe access to educational resources.
+              Challenges & Solutions: Time Constraint: Developing the platform
+              in just four days was a significant challenge. To overcome this,
+              we adopted agile development practices, prioritized essential
+              features, and worked collaboratively to ensure timely delivery.
+              Integration of Learning Modules: Creating interactive and engaging
+              learning modules required careful design and implementation. We
+              utilized ReactJS to build dynamic components and integrated
+              multimedia elements to enhance the learning experience. User
+              Experience: Ensuring a smooth and intuitive user experience was
+              crucial. We focused on user-centered design principles, conducted
+              rapid testing, and iterated on feedback to refine the platform’s
+              usability. Outcome & Impact: Enhanced Educational Access: The
+              platform effectively provides children with access to high-quality
+              educational resources, enabling them to learn and grow in a
+              supportive digital environment. User Engagement: By incorporating
+              interactive learning modules and personalized dashboards, the
+              platform enhances student engagement and facilitates a more
+              effective learning process. Professional Achievement: Completing
+              this project within a short timeframe demonstrated our team's
+              ability to deliver high-quality solutions under pressure. The
+              project was well-received and showcased our skills in using the
+              MERN stack to address real-world challenges in education. This
+              project not only highlights our technical proficiency but also our
+              commitment to leveraging technology for positive societal impact.
+        </p>
+      </div>
+    </div>
+
+    <div id="modal3" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal3')">&times;</span>
+        <h2>Project 3: [Project Name]</h2>
+        <p>Detailed information about Project 3 goes here.
+            Project Overview: Health and Fitness Tracker The Health and
+            Fitness Tracker is a distinctive application I developed using
+            Python and Django, designed to help users effectively monitor and
+            achieve their health and fitness goals. This project represents a
+            unique approach for me, given my background in the MERN stack, as
+            it leverages Django’s robust framework to create a dynamic and
+            engaging health management platform. Key Features &
+            Functionalities: Exercise Tracking: Users can log a variety of
+            exercises, detailing the type, duration, intensity, and calories
+            burned. This feature allows for comprehensive tracking of workout
+            history and progress over time. Meal Planning: The platform
+            enables users to plan and record their meals, including detailed
+            nutritional information. This helps users manage their caloric
+            intake and align their diet with their fitness objectives.
+            Progress Reports: Users can view detailed progress reports through
+            visual charts and graphs. These reports track trends in exercise
+            routines, diet, and overall health metrics, providing valuable
+            insights into their fitness journey. User Accounts: Secure user
+            authentication allows individuals to create and manage their
+            personal accounts. Each user has access to a personalized
+            dashboard that displays their activity history and progress.
+            Technical Implementation: Frontend Development:
+            HTML/CSS/JavaScript: Used traditional web technologies for
+            building a responsive and interactive frontend. While not
+            utilizing ReactJS, the frontend was designed to ensure a seamless
+            user experience across devices. Backend Development: Django:
+            Employed Django to handle server-side logic, manage user data, and
+            interact with the database. Django’s powerful features facilitated
+            user authentication, data management, and API creation. Django
+            ORM: Utilized Django’s Object-Relational Mapping (ORM) to interact
+            with the database, providing a robust system for managing and
+            querying data related to exercise logs, meal plans, and user
+            progress. Database: PostgreSQL or MySQL: Chose a relational
+            database to store user data, exercise information, and meal plans.
+            Django’s ORM simplifies data management and enhances the
+            application’s scalability. APIs and Integration: Developed RESTful
+            APIs to connect the frontend with Django’s backend, enabling
+            smooth data exchange and user interaction. Optional integration
+            with third-party fitness and nutrition APIs to enhance
+            functionality and provide additional resources. Security:
+            Implemented Django’s security features to ensure secure user
+            authentication and data protection. Encryption and privacy
+            measures were integrated to safeguard personal health information.
+            Challenges and Solutions: Transition from MERN to Django: Adapting
+            to Django from the MERN stack presented a learning curve. I
+            embraced this challenge by leveraging Django’s comprehensive
+            documentation and resources, successfully applying my skills to
+            build a functional and reliable application. User Experience
+            Design: Creating an engaging user interface with Django’s
+            templating system required careful design and testing. I focused
+            on ensuring a user-friendly experience, with clear navigation and
+            interactive elements. 
+        </p>
+      </div>
+    </div>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit" class="btn">Send</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <p>
+        Connect with me on
+        <a href="https://www.linkedin.com/in/abhimanyu-bhat-b2297b248/"
+          >LinkedIn</a>
+        | <a href="https://github.com/AbhimanyuBhat/ibm-frontend">GitHub</a>
+      </p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
